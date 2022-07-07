@@ -1,3 +1,3 @@
 <h1>List of movies : </h1>
 
-<%= @movies.first  %>
+<pre><%= JSON.pretty_generate(@movies.as_json) %></pre>

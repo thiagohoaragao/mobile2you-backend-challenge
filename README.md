@@ -27,8 +27,8 @@ rails s
 
 ## 🚀 Rotas
 
-Pode ser passado na query: title, year, gender e country.
-E para filtrar resultados: limit e offset.
+Pode ser passado: title, year, gender e country.
+E para filtrar a quantidade de resultados: limit e offset.
 
 ```
 localhost:3000/movies?title=

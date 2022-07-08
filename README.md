@@ -31,7 +31,7 @@ Pode ser passado na query: title, year, gender e country.
 E para filtrar resultados: limit e offset.
 
 ```
-localhost:3000/movies?QUERY= 
+localhost:3000/movies?title=
 ```
 Também pode ser utilizado mais de um de uma vez, exemplo:
 

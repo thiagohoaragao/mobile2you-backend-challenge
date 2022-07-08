@@ -27,7 +27,7 @@ rails s
 
 ## 🚀 Rotas
 
-Pode ser passado na query: title,year,gender e country.
+Pode ser passado na query: title, year, gender e country.
 E para filtrar resultados: limit e offset.
 
 ```

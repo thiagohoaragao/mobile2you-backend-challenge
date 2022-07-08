@@ -10,7 +10,7 @@ class Movie < ApplicationRecord
         like_filter[key.to_sym] = "%#{value}%"
       else
         query_string << "#{key} = :#{key}"
-        like_filter[key.to_sym] = "#{value}"
+        like_filter[key.to_sym] = value.to_s
       end
     end
     query_string = query_string.join(' and ')

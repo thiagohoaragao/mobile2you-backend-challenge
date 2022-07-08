@@ -19,7 +19,7 @@ yarn install
 
 ## ☕ Inicializando
 
-Rode a API com o seguinte comando:
+Rode o seguinte comando para inicializar:
 ```
 rails s
 ```

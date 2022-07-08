@@ -1,24 +1,31 @@
-# README
+# Desafio Backend Mobile2You
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Criar uma API de serviço do catálogo de filmes. Para isso será necessário criar dois endpoints, um que faça a leitura de um arquivo CSV e crie os registros no banco de dados. E um segundo que liste todos os filmes cadastrados em formato JSON.
 
-Things you may want to cover:
+## 💻 Instalação
 
-* Ruby version
+Para instalar, siga os passos abaixo:
 
-* System dependencies
+Clone esse repositório e instale suas dependências com os seguintes comandos:
+```
+git clone git@github.com:thiagohoaragao/mobile2you-backend-challenge.git
+```
+```
+bundle install
+```
+```
+yarn install
+```
 
-* Configuration
+## ☕ Inicializando
 
-* Database creation
+Rode o seguinte comando para inicializar:
+```
+rails s
+```
+* Ele irá inicializar em localhost:3000
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 🛠️ Essa API foi feita com:
+- Ruby 3.0.3
+- Rails 6.1.6
+- SQLite3

@@ -38,6 +38,10 @@ Também pode ser utilizado mais de um de uma vez, exemplo:
 ```
 localhost:3000/movies?title=barbie&year=2015&limit=2&offset=0
 ```
+Caso queira procurar por um especifico com um id:
+```
+localhost:3000/movies/id, exemplo : localhost:3000/movies/fff03d2a-7ff8-416d-9531-b1c9cc3bf401
+```
 ## 🛠️ Essa API foi feita com:
 - Ruby 3.0.3
 - Rails 6.1.6

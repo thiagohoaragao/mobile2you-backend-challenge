@@ -25,6 +25,10 @@ rails s
 ```
 * Ele irá inicializar em localhost:3000
 
+## 🔒 Testando
+```
+rails test
+```
 ## 🚀 Rotas
 
 Pode ser passado: title, year, gender e country.

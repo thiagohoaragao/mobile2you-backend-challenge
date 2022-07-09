@@ -26,9 +26,11 @@ rails s
 * Ele irá inicializar em localhost:3000
 
 ## 🔒 Testando
+Rode o seguinte comando para realizar testes:
 ```
 rails test
 ```
+* Ele irá testar se os ids estão em formato de UUID (Identificador Único Universal).
 ## 🚀 Rotas
 
 Pode ser passado: title, year, gender e country.

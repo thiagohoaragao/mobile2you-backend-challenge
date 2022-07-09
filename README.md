@@ -26,11 +26,13 @@ rails s
 * Ele irá inicializar em localhost:3000
 
 ## 🔒 Testando
+
 Rode o seguinte comando para realizar testes:
 ```
 rails test
 ```
 * Ele irá testar se os ids estão em formato de UUID (Identificador Único Universal).
+
 ## 🚀 Rotas
 
 Pode ser passado: title, year, gender e country.
@@ -48,6 +50,7 @@ Caso queira procurar por um especifico com um id:
 ```
 localhost:3000/movies/id, exemplo : localhost:3000/movies/fff03d2a-7ff8-416d-9531-b1c9cc3bf401
 ```
+
 ## 🛠️ Essa API foi feita com:
 - Ruby 3.0.3
 - Rails 6.1.6
